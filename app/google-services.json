@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "938871336763",
+    "firebase_url": "https://androidappnest-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "androidappnest",
+    "storage_bucket": "androidappnest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938871336763:android:037599d0ad68522ca6511e",
+        "android_client_info": {
+          "package_name": "com.example.androidappnest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAua0paw4WKvtkUMXDR8G0Z0UiyJWvIoaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
