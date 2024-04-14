@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".presentation.auth.SignUpActivity">
 
     <ImageButton
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="Password"
+        android:textColor="@color/gray"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/edPassword"
         app:layout_constraintStart_toStartOf="@+id/edPassword" />
@@ -34,7 +36,10 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="34dp"
+        android:backgroundTint="@color/black"
         android:text="Sign up"
+        android:textSize="14sp"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -42,12 +47,16 @@
     <EditText
         android:id="@+id/edPassword"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="300dp"
+        android:background="@drawable/edit_text_gray"
         android:ems="10"
         android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/bSignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -55,12 +64,16 @@
     <EditText
         android:id="@+id/edEmail"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="56dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_gray"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -71,6 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="Email"
+        android:textColor="@color/gray"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/edEmail"
         app:layout_constraintStart_toStartOf="@+id/edEmail" />
@@ -79,7 +93,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="48dp"
         android:text="Sign up"
         android:textSize="22sp"
         app:layout_constraintStart_toEndOf="@+id/bBack"
