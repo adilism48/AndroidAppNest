@@ -55,7 +55,6 @@ class SignUpActivity : AppCompatActivity() {
                 }
             }
         }
-
         binding.bBack.setOnClickListener {
             startActivity(Intent(this, SignInActivity::class.java))
         }

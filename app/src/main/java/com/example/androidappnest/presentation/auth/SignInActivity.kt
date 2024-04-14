@@ -10,7 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.ViewModelProvider
 import com.example.androidappnest.R
 import com.example.androidappnest.databinding.ActivitySignInBinding
-import com.example.androidappnest.presentation.MainActivity
+import com.example.androidappnest.presentation.main.MainActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -68,7 +68,6 @@ class SignInActivity : AppCompatActivity() {
         }
         checkAuthState()
     }
-
 
     private fun checkAuthState() {
         if (auth.currentUser != null) {
